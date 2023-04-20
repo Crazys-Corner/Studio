@@ -22,7 +22,7 @@ Founded by Silent Assassin#0372, it is now maintained by Kitten#0322. I do the w
 
 Founded by SilentAssassin and I, it is a server hosting platform that sell game servers ran through the "Pterodactyl" Panel. Check it out at https://civilhosting.net
 
-### RRP 
+## RRP 
 
 Just a thing I had to do for school, it got me back into web development and without it, this wouldn't exist.
 
