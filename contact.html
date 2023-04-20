@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Contact</title>
+	<link rel="stylesheet" href="Css.css">
+</head>
+
+<body>
+<h1 style="text-align:center;"><a href="About Us.html">About us |</a><a href="Contact.html"> Contact |</a><a href="Legal.html">  Legal | </a><a href="login.php">  Login</a></h1>
+<h1 style="text-align: center">Contact Us</h1>
+<br><a href="homepage.html"><img  id="logo" src="per_1_roadrunners.png" alt="logo" align="center"/></a>
+<br>
+	<p style="text-align: center">192-168-1111</p>
+	<p style="text-align: center">Coral Springs 33065</p>
+<p style="text-align: center">
+	<form style="text-align: center" action="login.php" method="post">
+
+<h2>Contact</h2>
+<p>Fill out information to contact us</p>
+<?php if (isset($_GET['error'])) { ?>
+
+    <p class="error"><?php echo $_GET['error']; ?></p>
+
+<?php } ?>
+
+<label>Name</label>
+
+<input type="text" name="uname" placeholder="Name"><br>
+
+<label>Email</label>
+
+<input type="text" name="email" placeholder="Email"><br> 
+			<label>Phone Number</label>
+		<input type="text" name="Phone" placeholder="Phone Number"><br>
+		<label>Graphic Design</label>
+	<input type="checkbox" name="GraphicDesign" placeholder="Graphic Design"> <br>
+		<label>Animation</label>
+	<input type="checkbox" name="Animation" placeholder="Animation"> <br>
+		<label>Web Design</label>
+	<input type="checkbox" name="Webdesign" placeholder="Web Design"> <br>
+
+
+
+		<a href="mailto:General@myStudio.com"><button type="submit">Submit</button></a> <br><br><br><br>
+		
+		<textarea id="comments" name="comments" rows="10" cols="66" placeholder="Remember, be nice!"></textarea>
+
+</form>
+	</p>
+</body>
+</html>

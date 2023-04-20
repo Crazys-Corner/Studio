@@ -1,0 +1,116 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-color:#90E1FF
+}
+
+p {
+	font-family: sans-serif;
+font-style: normal;
+font-weight: 400;
+	
+}
+td, th {
+    border: 1px solid #777;
+    padding: 0.5rem;
+    text-align: center;
+}
+ 
+table {
+    border-collapse: collapse;
+}
+ 
+tbody tr:nth-child(odd) {
+    background: #eee;
+}
+caption {
+    font-size: 0.8rem;
+}
+ul {
+	font-family: sans-serif;
+font-style: normal;
+font-weight: 200;
+	
+	
+}
+textarea {
+  outline: none;
+	resize: none;
+}
+h3 {
+	
+	font-family: sans-serif;
+	font-style: normal;
+	font-weight:700;
+}
+h2 {
+	
+	font-family: sans-serif;
+	font-style: normal;
+	font-weight:700;
+}
+h1 {
+	
+	font-family: sans-serif;
+	font-style: normal;
+	font-weight:700;
+}
+
+h4 {
+	
+	font-family: sans-serif;
+	font-style: normal;
+	font-weight:700;
+}
+img {
+  max-width: 50%;
+  height: auto;
+}
+
+#logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#AboutUs {
+	font-family: mozaic-geo-variable, sans-serif;
+font-style: normal;
+font-variation-settings: "wght" 400;
+}
+
+#toplink {
+	
+	font-family: sauna-new, sans-serif;
+font-style: normal;
+font-weight: 900;
+}
+#quandale {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#amongus {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+	max-height: 20%;
+	max-width: 20%;
+}
+#table {
+  margin-left: auto;
+  margin-right: auto;
+	
+}
+.top { 
+	background-color: blue;
+	font-size: 25px;
+}
+.bar {
+	background-color: yellow;
+	
+}
+.intro {
+	font-size: 20px;
+}
